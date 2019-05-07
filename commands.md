@@ -9,6 +9,8 @@ to run vagrant, you need;
 | cd vagrant/box                     | edit homestead.yml                   |                    |  create ssh key     |
 |~/Homestead,vagrant up --provision  | vagrant ssh (to login the VM)        |  apt-get update    |                     |
 
+- [x] composer global require laravel/installer
+
 to delete files;
 rm -rf filename
 
