@@ -10,7 +10,11 @@ to run vagrant, you need;
 |~/Homestead,vagrant up --provision  | vagrant ssh (to login the VM)        |  apt-get update    |                     |
 
 - [x] composer global require laravel/installer
-- [ ] 
+- [ ] git clone url into the parent folder
+- [ ] !! init.bat // to create homestead.yaml
+- [ ] laravel new project --force (폴더가 존재하기 때문에)
+- [ ] ssh-keygen -t rsa -b 4096 -C "onofftony@gmail.com"
+- [ ] vagrant up --provision
 
 to delete files;
 rm -rf filename
