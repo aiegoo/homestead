@@ -14,7 +14,7 @@ to run vagrant, you need;
 - [ ] !! init.bat // to create homestead.yaml
 - [ ] laravel new project --force (폴더가 존재하기 때문에)
 - [ ] ssh-keygen -t rsa -b 4096 -C "onofftony@gmail.com"
-- [ ] vagrant up --provision
+- [ ] vagrant up --provision  // laravel/homestead를 import 함.
 
 to delete files;
 rm -rf filename
